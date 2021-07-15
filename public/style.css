@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #171717 !important ;
+  color: white !important ;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.button{
+  padding:5px;
+  border: solid 1px black;
+  background-color: white;
+  cursor: pointer;
+}
+#scroll-top{
+  font-size: 3rem;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  transition: 50ms;
+}
+#scroll-bottom{
+  font-size: 3rem;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 55px;
+  transition: 50ms;
+}
+.noti{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
